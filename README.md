@@ -43,4 +43,4 @@ starwars %>%
 # To do...
 na.action is not supported, yet.  
 Any other recommended functionality?  
-Feel free to let me know. My twitter account: @fronori
+Feel free to let me know. My twitter: [@fronori: https://twitter.com/fronori]
