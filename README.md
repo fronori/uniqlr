@@ -13,10 +13,10 @@ Note that both functions works in a pipe-able fashion, as well as in the non-pip
 
 # Example usages: 
 ```
-uniqro(starwars, "species") 
+uniqro(starwars, "eye_color") 
 ```
 >NROW and unique row length:  
->87 38
+>87 15
 
 ```
 uniqle(starwars, "eye_color")
@@ -27,17 +27,18 @@ uniqle(starwars, "eye_color")
 # These functions are pipe friendly!
 ```
 starwars %>%  
-  uniqro("hair_color")
+  uniqro("species")
 ```
 >NROW and unique row length:  
 >87 13
 
 ```
-starwars %>%  
-  uniqle("hair_color")
+starwars %>% 
+  uniqle("species") %>%
+  head()
 ```
 >unique level/character:  
->'blond' NA 'none' 'brown' 'brown, grey' 'black' 'auburn, white' 'auburn, grey' 'white' 'grey' 'auburn' 'blonde' 'unknown'
+>'Human' 'Droid' 'Wookiee' 'Rodian' 'Hutt' 'Yoda\'s species'  
 
 # To do...
 na.action is not supported, yet.  
