@@ -1,4 +1,4 @@
-library(tidyverse)
+require(tidyverse)
 
 # Returns the specified column length and unique number of elements in the column 
 # of data frame/tibble by a pipe-able fashion.
