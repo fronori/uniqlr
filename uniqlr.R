@@ -18,10 +18,11 @@ uniqro <- function(.dat = starwars, target = "species"){
 uniqle <- function(.dat = starwars, target = "eye_color"){
   target <- .dat %>% 
     pull(target)
-  message("unique level/character: ")
   if(is.factor(target)){
+    message("unique level: ")
     levels(target)
   }else{
+    message("unique value/character: ")
     unique(target)
   }
 }
