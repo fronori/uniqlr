@@ -21,7 +21,7 @@ uniqro(starwars, "eye_color")
 ```
 uniqle(starwars, "eye_color")
 ```
->unique level/character:  
+>unique value:  
 >'blue' 'yellow' 'red' 'brown' 'blue-gray' 'black' 'orange' 'hazel' 'pink' 'unknown' 'red, blue' 'gold' 'green, yellow' 'white' 'dark'
 
 # These functions are pipe friendly!
@@ -37,7 +37,7 @@ starwars %>%
   uniqle("species") %>%
   head()
 ```
->unique level/character:  
+>unique value:  
 >'Human' 'Droid' 'Wookiee' 'Rodian' 'Hutt' 'Yoda\'s species'  
 
 # cf.
