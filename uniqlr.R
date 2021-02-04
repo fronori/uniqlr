@@ -19,10 +19,10 @@ uniqle <- function(.dat = starwars, target = "eye_color"){
   target <- .dat %>% 
     pull(target)
   if(is.factor(target)){
-    message("unique level: ")
+    message("unique levels: ")
     levels(target)
   }else{
-    message("unique value: ")
+    message("unique elements: ")
     unique(target)
   }
 }
