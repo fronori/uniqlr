@@ -22,7 +22,7 @@ uniqle <- function(.dat = starwars, target = "eye_color"){
     message("unique level: ")
     levels(target)
   }else{
-    message("unique value/character: ")
+    message("unique value: ")
     unique(target)
   }
 }
