@@ -40,6 +40,9 @@ starwars %>%
 >unique level/character:  
 >'Human' 'Droid' 'Wookiee' 'Rodian' 'Hutt' 'Yoda\'s species'  
 
+# cf.
+>"Never underestimate a droid." by Leia Organa
+
 # To do...
 na.action is not supported, yet.  
 Any other recommended functionality?  
