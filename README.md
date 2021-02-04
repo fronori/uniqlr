@@ -9,7 +9,7 @@ source("https://raw.githubusercontent.com/fronori/uniqlr/main/uniqlr.R")
 So far, two functions: uniqro() and uniqle() are implemented.
 - uniqro() returns the unique row number and also total row number of the specified column in a data frame/tibble.
 - uniqle() returns unique elements of specified column in data frame/tibble.  
-Note that both functions works in a pipe-able fashion, as well as in the non-pipe manner.
+Note that both functions work in a pipe-able fashion, as well as in the non-pipe manner.
 
 # Example usages: 
 ```
