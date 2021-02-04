@@ -1,5 +1,5 @@
 # uniqlr  
-uniqlr is a R package with custom functions to get unique row number and unique levels from a data frame/tibble
+uniqlr is a R package with custom functions to get unique row number and unique levels of the specified column from a data frame/tibble
 
 How to use this R code: 
 ```
